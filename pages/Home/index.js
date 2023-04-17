@@ -127,11 +127,11 @@ function Home() {
   }, [selectedStable, czusdBal, czusdAllow, busdBal, busdAllow, usdcBal, usdcAllow, usdtAllow, usdtAllow, account]);
 
   return (<>
-    <section id="top" className="hero has-text-centered" style={{ backgroundColor: "#191919", minHeight: "85vh" }}>
+    <section id="top" className="hero has-text-centered" style={{ backgroundColor: "#190c0c", minHeight: "85vh" }}>
       <video className="background-video" autoPlay loop muted >
         <source src={BackgroundVideo} type="video/mp4" />
       </video>
-      <div className="hero-head has-text-left pb-5 mt-0 pt-1" style={{ position: "relative", width: "100%", backgroundColor: "#191919" }}>
+      <div className="hero-head has-text-left pb-5 mt-0 pt-1" style={{ position: "relative", width: "100%", backgroundColor: "#190c0c" }}>
         <div style={{ marginLeft: "auto", marginRight: "auto", maxWidth: "1080px" }}>
           <div className="mt-3 pb-0 mb-0" style={{ float: "left" }}>
             <a href="https://atomicwealth.co/">
